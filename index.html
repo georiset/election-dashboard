@@ -127,50 +127,51 @@
     <h2 class="text-lg font-semibold mb-4">Electoral Acquisition Data</h2>
     <div class="overflow-y-auto h-80 border rounded"> <!-- Kontainer dengan scroll -->
 <style>
-        .background {
-            width: 280px;
-            height: 90px;
-            padding: 0;
-            margin: 0;
-          }
-          
-          .line {
-            width: 120px;
-            height: 50px;
-            border-bottom: 2px solid rgb(0, 0, 0);
-            transform: translateY(-80px) translateX(5px) rotate(45deg);
-            position: absolute;
-            z-index: -1;
-          }
-          
-          .background>div {
-            position: relative;
-            height: 100%;
-            width: 100%;
-            top: 0;
-            left: 0;
-          }
-          
-          .bottom {
-            position: absolute;
-            bottom: 1px;
-            left: 1px;
-          }
-          
-          .top {
-            position: absolute;
-            top: 1px;
-            right: 1px;
-          }
+            .t-background {
+                width: 300px;
+                height: 80px;
+                padding: 0;
+                margin: 0;
+            }
+            
+            .t-line {
+                width: 120px;
+                height: 30px;
+                border-bottom: 2px solid rgb(126, 1, 1);
+                transform: translateY(-50px) translateX(25px) rotate(27deg);
+                position: absolute;
+                z-index: -1;
+            }
+            
+            .t-background>div {
+                position: relative;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                left: 0;
+            }
+            
+            .t-top {
+                position: absolute;
+                top: 3px;
+                left: 250px;
+            }
+            
+            .t-bottom {
+                position: absolute;
+                bottom: 3px;
+                left: 10px;
+            }
+            
+            
     </style>
       <table class="table-auto w-full border">
-        <thead class="bg-white-200">
         <tr>
-            <th class="background">
-                <div><span class="bottom">Political Party</span>
-                    <span class="top"></span>District/Municipality</span>
-                    <div class="line"></div>
-                    </div>
+            <th class="t-background">
+                <div><span class="t-top"></span>District/Municipality</span>
+                     <span class="t-bottom">Political Party</span> 
+                <div class="t-line"></div>
+                </div>
                     </th>
             <td class="px-4 py-2 border border-gray-300">Jembrana</td>
             <td class="px-4 py-2 border border-gray-300">Tabanan</td>
