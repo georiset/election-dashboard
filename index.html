@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard WebGIS</title>
+  <title>2024 Political Party Vote Acquisition Dashboard</title>
   <!-- Tailwind CSS via CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -16,7 +16,6 @@
     <div class="logo">2024 Political Party Vote Acquisition Dashboard for Electoral Districts in Bali Province</div>
     <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
     <ul class="menu">
-        <li><a href="https:/georiset.github.io/election-dashboard/">Home</a></li>
         <li><a href="https://georiset.github.io/bali-electoral/">Fullscreen Map</a></li>
         <li><a href="https://instagram.com/">Instagram</a></li>
     </ul>
@@ -25,15 +24,15 @@
     <div class="container mx-auto mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
     <!-- Peta -->
     <div class="bg-white p-4 shadow rounded">
-      <h2 class="text-lg font-semibold mb-4">Peta Interaktif</h2>
+      <h2 class="text-lg font-semibold mb-4">Interactive Map of Bali Electoral Acquisition</h2>
       <iframe src="https://georiset.github.io/bali-electoral/" class="w-full h-80 border rounded" allowfullscreen></iframe>
     </div>
 
     <!-- Diagram -->
     <div class="bg-white p-4 shadow rounded">
-        <h2 class="text-lg font-semibold mb-4">Diagram Infografis</h2>
+        <h2 class="text-lg font-semibold mb-4">Infographic Diagram</h2>
         <!-- <canvas id="chart" class="w-full h-80"></canvas> -->
-        <!-- <h2 style="text-align: center;">Total Suara Partai per Kabupaten/Kota</h2> -->
+        <!-- <h2 style="text-align: center;">Party's Electoral Vote in Each Municipality/District</h2> -->
         <canvas id="stackedBarChart" width="800" height="400"></canvas>
     </div>
 
